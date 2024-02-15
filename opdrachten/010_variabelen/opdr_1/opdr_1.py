@@ -1,7 +1,9 @@
 # Opdracht 1
-# Naam student:
-# Groep:
+# Naam student: Ina Rommens
+# Groep: ITX1
 
-# Hier komt je code...
+#define the list with entries
+my_list = [13, "wat een weertje", 12.5, 8]
 
-my_list = ...
+#print the list
+print(my_list)

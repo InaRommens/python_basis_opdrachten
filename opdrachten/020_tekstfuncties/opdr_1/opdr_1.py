@@ -1,19 +1,13 @@
 # Opdracht 1
-# Naam student:
-# Groep:
+# Naam student: Ina
+# Groep: ITX1
 
-# Hier komt je code...
+#print some text
+print("O mamma mia, wat maak je toch heerlijke pizza's")
 
-# Opdracht 1a
-# Zorg dat de volgende zin op het scherm wordt getoond met de print-functie:
-# O mamma mia, wat maak je toch heerlijke pizza's
-
-print()
-
-# Gebruik onderstaande variabelen en de print-functie
-# en toon de volgende zin op het scherm: Albert Einstein zei ooit: 'Als je niks fout doet, dan kun je ook niks leren!'
+#define first and last name
 voornaam = "albert"
 achternaam = "einstein"
 
-
-print()
+#print the first and last name variables with some text
+print(voornaam + " " + achternaam + " zei ooit: 'Als je niks fout doet, dan kun je ook niks leren!")

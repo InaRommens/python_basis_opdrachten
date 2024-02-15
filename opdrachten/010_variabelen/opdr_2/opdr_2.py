@@ -1,9 +1,9 @@
 # Opdracht 1
-# Naam student:
-# Groep:
+# Naam student: Ina Rommens
+# Groep: ITX1
 
-# Hier komt je code...
+#define the tuple with entries
+my_tuple = (11, "Oh een tuple", 13.5, 8009)
 
-my_tuple = ...
-
-print()
+#print the tuple
+print(my_tuple)

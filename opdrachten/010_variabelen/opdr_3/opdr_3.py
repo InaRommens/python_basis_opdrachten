@@ -1,9 +1,13 @@
 # Opdracht 1
-# Naam student:
-# Groep:
+# Naam student: Ina Rommens
+# Groep: ITX1
 
-# Hier komt je code...
+#define the dictionary with entries
+my_dict = {"naam": "willem",
+           "achternaam": "van der broek",
+           "leeftijd": 23,
+           "favoriete kleur": "blauw"
+           }
 
-my_dict = ...
-
-print()
+#print the dictionary
+print(my_dict)
