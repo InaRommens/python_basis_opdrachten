@@ -9,4 +9,13 @@
 my_list = []
 
 #for loop
-#if statement
+for i in range(1,11):
+    my_list.append(i)
+#    if i > 4:
+#        print(i)
+#    if i == 10:
+#        print(my_list[4:])
+
+for j in my_list:
+    if j > 4:
+        print(j)

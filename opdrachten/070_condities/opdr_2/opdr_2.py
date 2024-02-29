@@ -8,6 +8,6 @@
 
 my_list = [43948, 878768, 38768, 87555, 765765]
 
-# for...:
-#   if...:
-#       print()
+for i in my_list:
+    if i % 3 == 0:
+        print(i)
