@@ -1,7 +1,17 @@
 # Opdracht 1 input function
-# Naam student:
-# Groep:
+# Naam student: Ina Rommens
+# Groep: ITX1
 
-# Hier komt je code, maak gebruik van de input functie om de lengte van de rechthoekzijden van de driehoek op te vragen.
+import math
 
+
+def triangle():
+    side_a = float(input("Enter the length of side A: "))
+    side_b = float(input("Enter the length of side B: "))
+    side_c = math.sqrt((side_a**2+side_b**2))
+
+    print(f"The length of side C is {side_c}")
+
+
+triangle()
 

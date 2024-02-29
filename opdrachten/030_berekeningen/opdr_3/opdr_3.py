@@ -1,16 +1,18 @@
 # Opdracht 3 tekstfuncties
-# Naam student:
-# Groep:
+# Naam student: Ina
+# Groep: ITX1
 
-# Hier komt je code...
-x = 1
-y = ...
-print( ... )
+def calc(x):
+    y = (4 * x**3) - (2 * x**2) - 1
+    return y
 
-x = 2
-y = ...
-print( ... )
 
-x = 0
-y = ...
-print( ... )
+def main():
+    print(calc(1))
+    print(calc(2))
+    print(calc(0))
+    exit()
+
+
+if __name__ == '__main__':
+    main()
