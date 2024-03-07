@@ -2,19 +2,16 @@
 # Naam student:
 # Groep:
 
+import math
 
 def kubus_vol(m):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
+    print(f"De inhoud van de kubus is {m**3} m^3")
     pass
 
 def bol_vol(r):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
+    print(f"De inhoud van de bol is {round((4/3)*math.pi*(r**3),3)} m^3")
     pass
 
-zijde = 5
-radius = 4
 
-print(kubus_vol(5))
-print(bol_vol(4))
+kubus_vol(5)
+bol_vol(4)

@@ -4,8 +4,12 @@
 
 
 def volledige_naam(lijst_met_namen):
-    # hier komt jouw code
-    # Het woordje pass mag je weghalen
+    for i in lijst_met_namen:
+        naam = ""
+        for j in i:
+            if i[j]:
+                naam += i[j]+" "
+        print(naam)
     pass
 
 

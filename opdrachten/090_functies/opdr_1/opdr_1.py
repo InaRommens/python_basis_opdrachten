@@ -3,11 +3,11 @@
 # Groep:
 
 
-def write_to_file(afile, atext):
-    # je code komt hier
-    # het woordje pass hieronder kun je weghalen
+def write_to_file(filex, texty):
+    fo = open(filex, "a")
+    fo.write(texty+"\n")
     pass
 
-my_tekst = "Schrijf dit maar even in een bestandje"
-my_file = "test.txt"
+my_tekst = input("What text would you like to add to the file?\n")
+my_file = input("What is the file name?\n")+".txt"
 write_to_file(my_file, my_tekst)
